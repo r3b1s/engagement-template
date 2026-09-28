@@ -1,0 +1,33 @@
+#############
+##   ENV   ##
+#############
+[env]
+
+# Potential Target Endpoints
+tar0 = ''
+tar1 = ''
+tar2 = ''
+tar3 = ''
+tar4 = ''
+tar5 = ''
+
+PI_CODING_AGENT_DIR="/home/$USER/.pi/ctf-agent"
+
+#############
+##  TOOLS  ##
+#############
+[tools]
+
+python = "3.14"
+node = "lts"
+"npm:@earendil-works/pi-coding-agent" = "latest"
+
+
+#############
+##  TASKS  ##
+#############
+[task_config]
+
+includes = [
+  ".mise/tasks",
+]
