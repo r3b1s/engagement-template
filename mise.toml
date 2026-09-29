@@ -11,6 +11,7 @@ tar3 = ''
 tar4 = ''
 tar5 = ''
 
+PI_TELEMETRY=0
 PI_CODING_AGENT_DIR="/home/$USER/.pi/ctf-agent"
 
 #############
